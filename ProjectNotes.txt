@@ -1,0 +1,33 @@
+Fantasy Basketball Pick'em Contest
+
+- Every day, pick who's going to win the games for that day
+    - Need to manage the games
+        - Fetch from external data source or manage ourselves?
+    - Who's playing?
+        - Need to know all the teams in the NBA so we can set up their games
+    - Manage use selections of the winners of each games
+        - User must make selections for every game of the day
+            - What happens if the user doesn't make a selection?
+                - Default pick is home team
+- Keep track of user's scores over the course of the season
+    - users get 1 point for each correct pick
+    - also calulate a percentage of correct picks, including default picks
+        - for users who join the league calulate
+- Regular season only
+
+Teams
+    - Name
+    - Record? <- How do we maintain this?
+Games <- How do we maintain this?
+    - Date
+    - HomeTeam
+    - AwayTeam
+    - WinningTeam <- How do we maintain this?
+Users
+    - Name
+    - Points (maybe calculated dynamically)
+Picks
+    - User
+    - Game
+    - TeamPicked
+    - Correct (maybe calculated dynamically)
